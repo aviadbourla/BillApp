@@ -82,7 +82,7 @@ class Bill extends Component {
                     </Select>
                 </FormControl>
                 <div>
-                    <Button variant="contained" color="" onClick={this.handleOnClick}> Calculate </Button>
+                    <Button variant="contained"  onClick={this.handleOnClick}> Calculate </Button>
                     {this.state.total ? <p>  Total bill: {this.state.total} </p> : <p></p>}
                     {this.state.foodSum ? <p> Each person who eat needs to pay : {Math.round(this.state.foodSum)} </p> : null}
                     {this.state.drinksSum ? <p> Each person who drink needs to pay : {Math.round(this.state.drinksSum)} </p> : null}
