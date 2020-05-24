@@ -7,7 +7,7 @@ import Select from '@material-ui/core/Select';
 import FormControl from '@material-ui/core/FormControl';
 import './form.css'
 
-class Form extends Component {
+class Bill extends Component {
 
     constructor(props) {
         super(props)
@@ -93,4 +93,4 @@ class Form extends Component {
     }
 }
 
-export default Form;
+export default Bill;

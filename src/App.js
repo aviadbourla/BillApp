@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Form from './Form'
+import Bill from './Bill'
 
 import './App.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Form />
+        <Bill />
       </header>
     </div>
   );
