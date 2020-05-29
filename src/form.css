@@ -40,15 +40,15 @@
    border-bottom-left-radius: 3px 15px;
    border: solid 3px transparent;
    border-bottom: dashed 3px #fdcb6e;
-   font-family: "Architects Daughter", cursive;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 1rem;
    width: 70%;
    margin-bottom: 20px;
  }
 
  .form input:focus {
-  outline: black auto 0px;
-  border: dashed 3px #fdcb6e;
+   outline: black auto 0px;
+   border: dashed 3px #fdcb6e;
  }
 
  label {
