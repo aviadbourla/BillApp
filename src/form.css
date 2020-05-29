@@ -2,7 +2,6 @@
    margin-top: 20px;
    margin-bottom: 30px;
    width: 100%;
-   height: auto;
    min-height: 500px;
    max-width: 500px;
    min-width: 250px;
@@ -40,8 +39,7 @@
    border-bottom-left-radius: 3px 15px;
    border: solid 3px transparent;
    border-bottom: dashed 3px #fdcb6e;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: 1rem;
+   font-family: 'PT Sans', sans-serif;   font-size: 1rem;
    width: 70%;
    margin-bottom: 20px;
  }
@@ -62,10 +60,23 @@
  }
 
  .MuiSelect-outlined.MuiSelect-outlined {
-   padding-right: 60px !important;
+   padding-right: 40px !important;
  }
 
  .MuiFormControl-root {
    margin-top: 30px !important;
    margin-bottom: 30px !important;
+ }
+
+ @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+   .form input {
+     width: 75%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   .container {
+     margin: 0;
+   }
+   .MuiFormControl-root {
+    margin-top: 1px !important;
+   }
  }
