@@ -1,3 +1,9 @@
+
+- "Pay the Bill" app which helps distribute the restaurant bill among friends using React/class-based components.
+
+![](images/loginpay.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
