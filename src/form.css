@@ -39,7 +39,8 @@
    border-bottom-left-radius: 3px 15px;
    border: solid 3px transparent;
    border-bottom: dashed 3px #fdcb6e;
-   font-family: 'PT Sans', sans-serif;   font-size: 1rem;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 1rem;
    width: 70%;
    margin-bottom: 20px;
  }
@@ -54,8 +55,9 @@
  }
 
  p {
-   font-family: "Architects Daughter", cursive;
-   font-size: 1rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
    color: hsla(260, 2%, 25%, 0.7);
  }
 
@@ -68,15 +70,21 @@
    margin-bottom: 30px !important;
  }
 
- @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+ @media only screen and (max-width: 480px) {
    .form input {
-     width: 75%;
+     width: 90%;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+   }
    .container {
      margin: 0;
    }
    .MuiFormControl-root {
-    margin-top: 1px !important;
+     margin-top: 1px !important;
    }
+   .container{
+     margin: 0;
+     padding: 0.4rem;
+     width: 90%;
+     border-radius: 20px;
+    }
  }
