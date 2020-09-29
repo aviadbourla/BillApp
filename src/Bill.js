@@ -63,8 +63,8 @@ class Bill extends Component {
                     <input className="inputsss" type="number" id="standard-basic" label="foodsBill" placeholder="Enter Foods bill" onChange={this.handleChangeBill} />
                     <input type="number" id="standard-basic" label="drinksBill" placeholder="Enter Drinks bill" onChange={this.handleChangeDrinksBill} />
                     <input type="number" id="standard-basic" label="pepoleEat" placeholder="How many people ordered food" onChange={this.handlePeopleEat} />
-                    <input type="number" id="standard-basic" label="pepoleDrink" placeholder="How many pepole ordered drinks" onChange={this.handlePeopleDrink} />
-                    <input type="number" id="standard-basic" label="pepoleDrinkAndEat" placeholder="How many pepole ordered both" onChange={this.handlePeopleDrinkAndEat} />
+                    <input type="number" id="standard-basic" label="pepoleDrink" placeholder="How many people ordered drinks" onChange={this.handlePeopleDrink} />
+                    <input type="number" id="standard-basic" label="pepoleDrinkAndEat" placeholder="How many people ordered both" onChange={this.handlePeopleDrinkAndEat} />
                 </div>
                 <FormControl variant="outlined" >
                     <InputLabel id="demo-simple-select-outlined-label">tip</InputLabel>
